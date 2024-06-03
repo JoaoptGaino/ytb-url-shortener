@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ytb-url-shortener
+  data:
+    mongodb:
+      auto-index-creation: true
+      host: localhost
+      port: 27017
+      database: ytb-shortener-db
